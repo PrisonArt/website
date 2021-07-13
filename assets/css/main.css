@@ -3936,6 +3936,10 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.co-founders section a:hover {
+		color: #000;
+	}
+
 .who-img {
 	border-radius: 50%;
 	width: 100px;
@@ -3953,6 +3957,13 @@ input, select, textarea {
 
 .hero {
 	margin-top: 70px;
+}
+
+.art-img {
+	max-width: 100%;
+	max-height: 175px;
+	display: block;
+	margin: 0 auto 20px auto;
 }
 
 @media screen and (max-width: 1280px) {
