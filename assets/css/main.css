@@ -3966,6 +3966,49 @@ input, select, textarea {
 	margin: 0 auto 20px auto;
 }
 
+.abe {
+	width: 100%;
+}
+
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	width: 80%;
+	margin: 0 auto 40px auto;
+	border-left: 8px solid #001D02;
+}
+
+.captain li {
+	padding: 10px 0px 10px 20px;
+	border-bottom: 1px solid #C1FFCF;
+	list-style: none;
+}
+
+.captain li:hover {
+	background: #C1FFCF;
+}
+
+.captain li a {
+	font-weight: bold;
+}
+
+.captain li a:hover {
+	color: #003507;
+}
+
+.sub-cap {
+	margin: 0 !important;
+}
+
+.sub-cap li {
+	font-style: italic;
+}
+
+.sub-cap li:hover {
+	background: #9BFFB2;
+}
+
 @media screen and (max-width: 1280px) {
 	.logo {
 		width: 20%;
@@ -3991,6 +4034,10 @@ input, select, textarea {
 	.video-frame {
 		width: 80%;
 		height: 300px;
+	}
+
+	.captain li {
+		padding: 10px 0;
 	}
 }
 
