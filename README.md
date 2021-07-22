@@ -16,4 +16,4 @@ People accrue debt while incarcerated. On returning to society, they struggle to
 
 The DAO that can be named is not the eternal DAO.
 
-Open, verifiable, executable contracts on ownerless networks allow us to organise institutions which are more like shared practices and customs than complex bureaucracies. We offer here a description of a **shared practice** for systems of restorative justice.
+Open, verifiable, executable contracts on ownerless networks allow us to organize institutions which are more like shared practices and customs than complex bureaucracies. We offer here a description of a **shared practice** for systems of restorative justice.

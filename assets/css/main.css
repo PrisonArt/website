@@ -4036,6 +4036,27 @@ input, select, textarea {
 	background-image: url("/images/crow.jpg") !important;
 }
 
+.research {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+	.research section {
+		padding: 1em;
+		width: 24%;
+		position: relative;
+	}
+
+	.research section a:hover {
+		color: #000;
+	}
+
 @media screen and (max-width: 1280px) {
 	.logo {
 		width: 20%;
@@ -4063,7 +4084,7 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 980px) {
-	.co-founders section {
+	.co-founders section, .research section {
 		width: 100%;
 		padding: 1.5em 0 0 2em;
 	}
