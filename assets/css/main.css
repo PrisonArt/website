@@ -3927,7 +3927,6 @@ input, select, textarea {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin: 0 0 2em 0;
 }
 
 	.co-founders section {
@@ -4009,6 +4008,34 @@ input, select, textarea {
 	background: #9BFFB2;
 }
 
+.green-link {
+	color: #00BD27;
+	font-weight: 800;
+}
+
+.green-link:hover {
+	text-decoration: underline;
+	color: #00BD27 !important;
+}
+
+.team-head {
+	padding: 1em 0 0 3em;
+}
+
+.right {
+	right: 0;
+	left: unset !important;
+}
+
+.tech {
+	margin-right: 18em;
+	margin-left: unset !important;
+}
+
+.crow {
+	background-image: url("/images/crow.jpg") !important;
+}
+
 @media screen and (max-width: 1280px) {
 	.logo {
 		width: 20%;
@@ -4020,6 +4047,18 @@ input, select, textarea {
 
 	.hero {
 		margin-top: 0px;
+	}
+
+	.right {
+		right: unset;
+	}
+	
+	.tech {
+		margin-right: 0;
+	}
+
+	.crow {
+		background-image: url("/images/birds.png") !important;
 	}
 }
 
