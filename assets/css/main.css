@@ -4018,6 +4018,10 @@ input, select, textarea {
 	color: #00BD27 !important;
 }
 
+.question {
+	color: #003508 !important;
+}
+
 .team-head {
 	padding: 1em 0 0 3em;
 }
