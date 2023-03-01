@@ -155,8 +155,13 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-	strong, b {
+	strong {
 		color: #ffffff;
+		font-weight: bold;
+	}
+
+	b {
+		color: #000;
 		font-weight: bold;
 	}
 
@@ -1969,6 +1974,46 @@ input, select, textarea {
 				.button:hover:active:after {
 					opacity: 0.1;
 				}
+
+/* Participate */
+
+	.participate {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		border-radius: 0.25em;
+		border: solid 1px rgba(255, 255, 255, 0.15);
+		background: rgba(255, 255, 255, 0.05);
+		margin: 0 0 2em 0;
+	}
+
+		.participate section {
+			padding: 1em;
+			width: 50%;
+			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			position: relative;
+		}
+
+		.participate section p {
+			padding: 1em;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.participate {
+				display: block;
+			}
+
+				.participate section, .third {
+					width: 100%;
+				}
+
+		}
 
 /* Features */
 
@@ -3916,6 +3961,11 @@ input, select, textarea {
 	font-size: 13pt;
 }
 
+.video {
+	width: 560px;
+	height: 315px;
+}
+
 .video-frame {
 	width: 60%;
 	height: 400px;
@@ -4094,6 +4144,10 @@ input, select, textarea {
 	.co-founders section, .research section {
 		width: 100%;
 		padding: 1.5em 0 0 2em;
+	}
+
+	.video {
+		width: 100%;
 	}
 }
 
